@@ -1,0 +1,27 @@
+{
+	"apps": [
+		{
+			"name": "Appiness-Test-Api",
+			"script": "yarn start",
+			"cwd": "./",
+			"args": "",
+			"instances": 1,
+			"autorestart": true,
+			"watch": true,
+			"ignore_watch": ["node_modules", "logs"],
+			"watch_options": {
+				"followSymlinks": false
+			},
+			"env": {
+				"APP": "Appiness-Test-Api",
+				"NODE_ENV": "production",
+				"PORT": 3000,
+
+				"API_KEY": "12LDUFSJKDNSDFHSJKHAKLJDFALJDFKSJFGHSKL3456",
+				"JWT_SECRET": "123GHFKDJGHFJKDGHJKFDGHFJKDGHGH456",
+
+				"MONGO_URL": "mongodb+srv://sandesh:sandesh123@appinessapi.nnywl.mongodb.net/AppinessApi?retryWrites=true&w=majority"
+			}
+		}
+	]
+}
