@@ -56,11 +56,7 @@ If the installation was successful, you should be able to run the following comm
   To run the backend application
 
     yarn start
-
-  ### OR
-
-  To run the backend application
-
+       OR
     pm2 start ecosystem.json ( Install pm2 to run this command )
 
 ## API Document
