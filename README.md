@@ -61,7 +61,7 @@ If the installation was successful, you should be able to run the following comm
 
   To run the backend application
 
-    pm2 start ecosystem.json ( Install pm2 to run is command )
+    pm2 start ecosystem.json ( Install pm2 to run this command )
 
 ## API Document
 
