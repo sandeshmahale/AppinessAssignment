@@ -57,12 +57,15 @@ If the installation was successful, you should be able to run the following comm
 
     yarn start
 
-      OR
+  ### OR
 
   To run the backend application
 
     pm2 start ecosystem.json ( Install pm2 to run is command )
 
+## API Document
+
+  https://documenter.getpostman.com/view/6038807/TVzPnzAX
 
 ## Author
 
